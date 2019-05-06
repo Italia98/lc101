@@ -1,0 +1,98 @@
+1. a python list named fruit that includes three strings: apple, banana, and orange. fruist=[“apple”,”banana”,”orange”]
+
+2.Make a nested list named items_for_sale that includes a list of two cars (Ford and Honda) and a list of two movies (Star Wars and Independence Day)
+items_for_sale = [[“Ford”,”Honda”],[“Star Wars”,”Independence Day”]]
+
+
+3.What would have to be true about a list for this code to work properly?
+exampleList[1][1][1]
+exampleList=[“hello”,[10,(“red”,”pink”)]]
+
+4.Why is the first print line False but the second print line is True?
+x = ["a","b"] y = ["a","b"] print (x is y) print(x == y)
+False; because ‘x’ and ‘y’ have the same value but they are not referring to the same object.
+True; because they are equal on the same value .
+
+5.What prints in the following statements?
+a = [81,82,83] b = a print(a is b)
+True
+
+6.Given the following statements, what is printed?
+a = [81,82,83] b = a a[1] = 17 print(a + b)
+[81, 17, 83, 81, 17, 83]
+
+7.Suppose you have a list of items named cars that contains strings for “Ford”,”Honda”, and “Toyota”. Suppose you also have a list of items named planes that contains strings for “737” and “747”.
+Create a function that can take either list as an input parameter and print out each item in the list. Call the function for both lists.
+
+def print_list():     
+    cars =["Ford","Honda","Toyota"]
+    planes = ["737","747"]
+    cars += planes
+
+8.Explain what a key-value pair is, and where you might use one in Python.
+A key-value pair is use on Dictionaries and the  way the are defined is that the “key” that is a string is giving a value or a reference to the “value” which could be a string as well or an integer.
+
+
+9.In the following code, what line number(s) showcase initialization?
+0 import turtle 1 wn = turtle.Screen()  2 wn.bgcolor("lightgreen") 3 4 tess = turtle.Turtle()  5 tess.color("hotpink") 6 tess.pensize(5) 7 8 tess.forward(80)  9 tess.left(120)
+
+1-4
+
+10.Explain the relationship between classes and objects.
+Objects get their variables and functions from classes. Classes are essentially a way  to create your objects. A class is typically defined  to describe an object. An object is created when a class is instantiated.
+
+11.What is inheritance and why is it a useful concept?
+
+Inheritance is the capability of one class to derive the properties from another class , is it very useful because it allows us to reuse a code so we don’t have to rewrite the same code again and again ; we can also add more features to a class without modifying it.
+
+12.Complete the following starter code such that the function call works and returns a value of 6.
+# Complete the following starter code
+def time_between_months(startingmonth, endingmonth):
+     # todo define months as a dictionary
+    months = {"January":1,"February":2,"March":3,"April":4,"May":5,"June":6,"July":7,
+               "August":8,"September":9,"October":10,"November":11,"December":12}
+    tbm = months[startingmonth] - months[endingmonth]
+    return abs(tbm)
+
+print(time_between_months("May","November"))
+
+
+
+/SEPARATOR
+
+Quiz4
+
+2.Write a well-formed html document that contains the tags for head, title, and body. You may need additional tags/elements for it to be fully well-formed.
+3.Describe what is happening when a user visits a webpage. Your description should include the following items:
+HTTP request3 HTTP response5 User computer 1 Web browser 2 Web server4
+
+5.In the context of version control, what is branching and why is it useful?
+
+6.Using a CSS stylesheet, create rules to change the element with the text of "first level" to blue, the element with the text of "second level" to green, and the element with the text of "third level" to red? 
+
+<html>
+<body>
+     <div>
+          <h3>first level</h3>
+          <div>
+               <h3 class="second">second level</h3>
+               <div>
+                    <h3 id="third">third level</h3>
+               </div>
+          </div>
+     </div>
+</body>
+</html>
+7.What are some technical differences between HTTP forms using GET and POST methods?
+8.Update the following code so that it’s capable of an HTTP request to a route named "/registration". The registration page expects to see variables in the querystring.
+<!doctype html> <html> <head></head> <body>      Last Name:       <input type=”text”>      First Name:      <input type=”text”>      Student?      <input type=”checkbox”> </body> </html>
+
+9.For the following two examples, state what kind of HTML form controls you would use and why.
+Example 1: Choice of Credit Card (Visa, MasterCard, or American Express) Example 2: Choice of hamburger toppings (lettuce, onion, tomatoes, ketchup, mustard)
+
+10.Why should you do HTML Escaping?
+
+
+
+
+
